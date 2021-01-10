@@ -8,5 +8,19 @@ document.addEventListener("keydown", function(event) {
 });
 
 function jump () {
-    sonic.classList.add("jump")
+    if (sonic.classList != "jump") {
+        sonic.classList.add("jump")
+    }
+    setTimeout( function() {
+        sonic.classList.remove("jump")
+    }, 300)
 }
+
+let isAlive = setInterval ( function() {
+    let sonicTop = parseInt(window.getComputedStyle(sonic).getPropertyValue("top"));
+    let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
+
+    if (cactusLeft < 50 && cactusLeft > 0 && sonicTop >= 140) {
+        alert("You LOSE, WTF!?")
+    }
+}, 10)
