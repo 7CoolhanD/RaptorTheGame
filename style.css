@@ -1,38 +1,39 @@
 .game {
-    width: 600px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     border-bottom: 1px solid #000;
     margin: auto;
 }
 
 #sonic {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-image: url(img/sonic.png);
-    background-size: 50px 50px;
+    background-size: 70px 70px;
     position: relative;
-    top: 150px;
+    top: 239px;
+    z-index: -1;
 }
 #cactus {
     width: 20px;
-    height: 40px;
+    height: 70px;
     background-image: url(img/cactus.png);
-    background-size: 20px 40px;
+    background-size: 20px 70px;
     position: relative;
-    top: 110px;
-    left: 580px;
-    animation: cactusMov 1s infinite linear;
+    top: 163px;
+    left: 790px;
+    animation: cactusMov 2s infinite linear;
 }
 @keyframes cactusMov {
     0% {
-        left: 580px;
+        left: 790px;
     }
     100% {
         left: -20px;
     }
 }
 .jump {
-    animation: jump 0.4s linear;
+    animation: jump 0.3s linear;
 }
 @keyframes jump {
     0% {
@@ -42,7 +43,7 @@
         top: 130px;
     }
     50% {
-        top: 80px;
+        top: 40px;
     }
     80% {
         top: 130px;
