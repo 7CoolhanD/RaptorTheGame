@@ -20,7 +20,7 @@ let isAlive = setInterval ( function() {
     let sonicTop = parseInt(window.getComputedStyle(sonic).getPropertyValue("top"));
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"));
 
-    if (cactusLeft < 50 && cactusLeft > 0 && sonicTop >= 140) {
+    if (cactusLeft < 50 && cactusLeft > 0 && sonicTop >= 165) {
         alert("You LOSE, WTF!?")
     }
 }, 10)
