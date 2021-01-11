@@ -16,9 +16,9 @@
 }
 #cactus {
     width: 20px;
-    height: 80px;
+    height: 85px;
     background-image: url(img/cactus.png);
-    background-size: 20px 70px;
+    background-size: 20px 85px;
     position: relative;
     top: 148px;
     left: 790px;
