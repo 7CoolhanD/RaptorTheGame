@@ -1,3 +1,6 @@
+* {
+    border: 1px solid red;
+}
 .game {
     width: 800px;
     height: 300px;
@@ -16,11 +19,11 @@
 }
 #cactus {
     width: 20px;
-    height: 70px;
+    height: 80px;
     background-image: url(img/cactus.png);
     background-size: 20px 70px;
     position: relative;
-    top: 163px;
+    top: 148px;
     left: 790px;
     animation: cactusMov 2s infinite linear;
 }
