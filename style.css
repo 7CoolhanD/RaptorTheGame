@@ -16,11 +16,11 @@
 }
 #cactus {
     width: 20px;
-    height: 70px;
+    height: 85px;
     background-image: url(img/cactus.png);
-    background-size: 20px 70px;
+    background-size: 20px 85px;
     position: relative;
-    top: 163px;
+    top: 148px;
     left: 790px;
     animation: cactusMov 2s infinite linear;
 }
